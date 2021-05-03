@@ -1,0 +1,102 @@
+[
+    {
+        "name": "cheese",
+        "image": "https://images.pexels.com/photos/4187776/pexels-photo-4187776.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+        "name": "milk",
+        "image": "https://images.pexels.com/photos/4113260/pexels-photo-4113260.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+        "name": "egg",
+        "image": "https://images.pexels.com/photos/4191620/pexels-photo-4191620.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+        "name": "corn_flour",
+        "image": "https://images.pexels.com/photos/6294375/pexels-photo-6294375.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+        "name": "wheat",
+        "image": "https://images.pexels.com/photos/6207827/pexels-photo-6207827.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+        "name": "potato",
+        "image": "https://images.pexels.com/photos/2286776/pexels-photo-2286776.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+        "name": "spicy",
+        "image": "https://images.pexels.com/photos/70842/hot-pepper-pepper-fire-food-70842.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+        "name": "paneer",
+        "image": "https://5.imimg.com/data5/JU/BO/EH/SELLER-94570766/fresh-panner-500x500.jpg"
+    },
+    {
+        "name": "rice",
+        "image": "https://www.simplyrecipes.com/thmb/j_IZxLEP2tJjonCl3s7RiGnMuxo=/2000x1331/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2020__02__HTC-White-Rice-Lead-4-e5743ee4c63a40a0aec2f3abd9f1c097.jpg"
+    },
+    {
+        "name": "desert",
+        "image": "https://i.pinimg.com/originals/39/59/c3/3959c3b785615c3ce6686edae96302d1.jpg"
+    },
+    {
+        "name": "chicken",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Chickens_in_market.jpg"
+    },
+    {
+        "name": "starters",
+        "image": "https://i.pinimg.com/originals/09/10/08/0910082bd4a206a8f23da1059954c651.jpg"
+    },
+    {
+        "name": "fish",
+        "image": "https://previews.123rf.com/images/iva2/iva21105/iva2110500031/9472001-dried-fish-food-for-many-people-of-the-different-countries-of-the-world-.jpg"
+    },
+    {
+        "name": "mutton",
+        "image": "https://static.toiimg.com/thumb/63201465.cms?width=1200&height=900"
+    },
+    {
+        "name": "soyabean",
+        "image": "https://images.financialexpress.com/2017/10/soyabean.jpg"
+    },
+    {
+        "name": "Tomato",
+        "image": "http://www.agricorner.com/wp-content/uploads/2011/11/tomato-India.jpg"
+    },
+    {
+        "name": "Garam-masala",
+        "image": "https://kandrafoods.com/wp-content/uploads/2020/01/home-made-garam-masala.jpg"
+    },
+    {
+        "name": "Ginger-garlic-paste",
+        "image": "https://images.ctfassets.net/uw7yiu2kuigc/28PYAEkr6ukvNdQkbxMs5c/4934baba5f4d64ae7954719f676dbe90/Herbed-Garlic-Paste-Lead.jpg"
+    },
+    {
+        "name": "coriander",
+        "image": "https://i.pinimg.com/originals/09/10/08/0910082bd4a206a8f23da1059954c651.jpg"
+    },
+    {
+        "name": "lemon",
+        "image": "https://healthyfoodhouse.com/wp-content/uploads/2015/03/14-secret-powers-of-lemon.jpg"
+    },
+    {
+        "name": "Sugar",
+        "image": "https://trustworthyfitness.com/wp-content/uploads/2016/08/Hidden-Sugar.jpeg"
+    },
+    {
+        "name": "salt",
+        "image": "https://img.etimg.com/thumb/msid-64829422,width-643,imgsize-53317,resizemode-4/salt-food-eat-thinkstockphotos-526711494.jpg"
+    },
+    {
+        "name": "oil/ghee/butter",
+        "image": "https://www.boldsky.com/img/2017/03/16-1489648307-fake-ghee4.jpg"
+    },
+    {
+        "name": "maida",
+        "image": "https://cdn.cdnparenting.com/articles/2019/04/25114242/685703245-H-1024x700.jpg"
+    },
+    {
+        "name": "suji",
+        "image": "https://wownow.co.nz/media/catalog/product/cache/1/image/1200x1200/9df78eab33525d08d6e5fb8d27136e95/a/d/ad071.jpg"
+    }
+]

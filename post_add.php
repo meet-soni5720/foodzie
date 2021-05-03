@@ -94,8 +94,41 @@
   }
 
 ?>
+<style type="text/css">
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.box
+{
+	/*border:4px solid black ;*/
+	margin-top: 30px;
+	margin-bottom: 60px;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+</style>
 
 <?php include('header.php') ?>
+<div class="box" style="color: black">
+	<br>
 <div style="width: 80%; margin: 40px auto;">
 <?php if(isset($_POST['submit'])): ?>
   <div class="alert alert-dismissible alert-warning">
@@ -105,19 +138,20 @@
 </div>
 <?php endif ?>
 <form action="post_add.php" method="POST" enctype="multipart/form-data">
+	<h2 style="text-align: center;">Add Your Recipe</h2>
   	<div class="form-group">
 		<label for="title">Recipe Name:</label>
-		<input type="text"class="form-control" name="title" required>
+		<input type="text"class="form-control" style="width: 60%" name="title" required>
 	</div>
 	<div class="form-group">
 		<label for="desc">description:</label>
-		<input type="text"	class="form-control" name="desc" required> 
+		<textarea name="desc" class="form-control" rows="5" scroll="true" required> </textarea><br>
 	</div>
 	
   <fieldset class="form-group">
 			<label>ingredients</label><br>
 			<?php 
-				$sql = "SELECT * from ingredients";
+				$sql = "SELECT * from `ingredients`";
 				$result = mysqli_query($conn, $sql);
 			?>
 
@@ -142,8 +176,11 @@
 		<small id="fileHelp" class="form-text text-muted">Upload image in .jpg, .jpeg or .png file format only</small>
 	</div>
 
-	<input type="submit" name="submit" value = "add" class="btn btn-primary">
+	<input type="submit" name="submit" value = "Add Recipe" class=" button" >
+	<br>
 </form>
+</div>
+<br>
 </div>
 
 

@@ -28,19 +28,55 @@
         }
     }
 ?>
+<style type="text/css">
+    .box
+{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.fo{
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+</style>
 
 <?php include('header.php'); ?>
-
-<form action="update.php" method="POST" enctype="multipart/form-data">
+<div class="box">
+    <br>
+<form action="update.php" method="POST" enctype="multipart/form-data" class="fo" style="color: black">
+    <h2 style="text-align: center;">Update Recipe</h2>
     <div class="form-group">
 	<label for="title">Recipe Name:</label>
-    <input type="text" name="title" class = "form-control" value = "<?php echo strval($title);?>" required> <br>
+    <input type="text" name="title" style="width: 60%" class = "form-control" value = "<?php echo strval($title);?>" required> <br>
     </div>
     <input type = "hidden" name = "id" value = <?php echo $id; ?> >
     <input type = "hidden" name="feat_img" value = "<?php echo $featured_img ?>" >
     <div class="form-group">
 	<label for="desc">Recipe Summary:</label>
-	<input type="text" class="form-control" name="desc" value = "<?php echo strval($desc); ?>" required> <br>
+    <textarea name="desc" class="form-control" rows="5" scroll="true" required><?php echo strval($desc); ?> </textarea><br>
+   
     </div>
 	<div class="form-group">
 		<label>ingredients</label> <br>
@@ -77,15 +113,18 @@
 		<small id="fileHelp" class="form-text text-muted">Upload image in .jpg, .jpeg or .png file format only</small>
 	</div>
 
-	<input type="submit" name="submit" value = "update" class="btn btn-primary">
+	<input type="submit" name="submit" value = "Update Recipe" class="button">
 </form>
+<br>
 
-<?php if($_GET['msg']): ?>
+<!-- <?php if($_GET['msg']): ?>
   <div class="alert alert-dismissible alert-warning">
   <button type="button" class="close" data-dismiss="alert">&times;</button>
   <h4 class="alert-heading">Warning!</h4>
   <p class="mb-0"> <?php echo $_GET['msg']; ?> </p>	
 </div>
-<?php endif ?>
+<?php endif ?> -->
+
+</div>
 
 <?php include('footer.php'); ?>

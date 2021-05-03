@@ -20,8 +20,9 @@
 			$target_file = $target_dir . basename($_FILES['t_image']['name']);
 			$check = getimagesize($_FILES['t_image']['tmp_name']);
 
-			$file_ext = strtolower(end(explode('.', $_FILES['t_image']['name'])));
-			echo $file_ext;
+            $file_ext = explode('.', $_FILES['t_image']['name']);
+            $file_ext = strtolower(end($file_ext));
+			// echo $file_ext;
 
 			$extensions = array("jpeg","jpg","png");
 			if(in_array($file_ext,$extensions) == false){
