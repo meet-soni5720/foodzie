@@ -9,10 +9,10 @@ require_once 'vendor/autoload.php';
 $google_client = new Google_Client();
 
 //Set the OAuth 2.0 Client ID
-$google_client->setClientId('769125436131-mkc56vu3kmio6a1m1rcpv6btuesnv7db.apps.googleusercontent.com');
+$google_client->setClientId('ENTER GOOGLE CLIENT ID');
 
 //Set the OAuth 2.0 Client Secret key
-$google_client->setClientSecret('a-uPveGNC6M2aFqlshgGBgwX');
+$google_client->setClientSecret('ENTER GOOGLE CLIENT SECRET KEY');
 
 //Set the OAuth 2.0 Redirect URI
 $google_client->setRedirectUri('http://localhost/foodzie_v3/register.php');
